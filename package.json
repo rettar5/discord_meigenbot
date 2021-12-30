@@ -1,0 +1,23 @@
+{
+  "name": "rettar5-meigen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run tsc",
+    "tsc": "tsc -p tsconfig.json",
+    "start": "node ./dist/app.js"
+  },
+  "author": "rettar5",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "eris": "^0.16.1",
+    "fs": "0.0.1-security",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.5"
+  }
+}
